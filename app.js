@@ -62,7 +62,7 @@ const MONGOOSE =
 mongoose
   .connect(MONGOOSE)
   .then((result) => {
-    server.listen(5001, () => {
+    server.listen(5000, () => {
       console.log("server running!");
     });
   })
